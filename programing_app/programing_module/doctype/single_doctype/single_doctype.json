@@ -1,0 +1,52 @@
+{
+ "autoname": "field:abc",
+ "creation": "2022-12-29 13:59:36.539182",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "abc",
+  "def",
+  "child_doctype"
+ ],
+ "fields": [
+  {
+   "fieldname": "abc",
+   "fieldtype": "Data",
+   "label": "ABC"
+  },
+  {
+   "fieldname": "def",
+   "fieldtype": "Data",
+   "label": "DEF"
+  },
+  {
+   "fieldname": "child_doctype",
+   "fieldtype": "Table",
+   "label": "Child DocType",
+   "options": "Child DocType"
+  }
+ ],
+ "issingle": 1,
+ "modified": "2022-12-29 16:33:03.213219",
+ "modified_by": "Administrator",
+ "module": "Programing Module",
+ "name": "Single Doctype",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

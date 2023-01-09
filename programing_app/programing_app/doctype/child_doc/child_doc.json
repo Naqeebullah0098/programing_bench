@@ -1,0 +1,98 @@
+{
+ "autoname": "field:child_doc_name",
+ "creation": "2022-12-26 16:46:14.527297",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "child_doc_name",
+  "parent_doc_link",
+  "parent_full_name",
+  "parent_age",
+  "parent_present_address",
+  "table_section_section",
+  "paret_date_and_values",
+  "list_all_parent_docs_section_section",
+  "get_all_parent_docs",
+  "parent_list"
+ ],
+ "fields": [
+  {
+   "fieldname": "child_doc_name",
+   "fieldtype": "Data",
+   "label": "Child Doc Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "parent_doc_link",
+   "fieldtype": "Link",
+   "label": "Parent Doc Link ",
+   "options": "Parent Doc"
+  },
+  {
+   "fieldname": "parent_full_name",
+   "fieldtype": "Data",
+   "label": "Parent Full Name"
+  },
+  {
+   "fieldname": "parent_age",
+   "fieldtype": "Int",
+   "label": "Parent Age"
+  },
+  {
+   "fieldname": "parent_present_address",
+   "fieldtype": "Small Text",
+   "label": "Parent Present Address"
+  },
+  {
+   "fieldname": "table_section_section",
+   "fieldtype": "Section Break",
+   "label": "Table Section"
+  },
+  {
+   "fieldname": "paret_date_and_values",
+   "fieldtype": "Table",
+   "label": "Paret Date And Values",
+   "options": "Child Child Table"
+  },
+  {
+   "fieldname": "list_all_parent_docs_section_section",
+   "fieldtype": "Section Break",
+   "label": "List All Parent Docs Section"
+  },
+  {
+   "fieldname": "parent_list",
+   "fieldtype": "Table",
+   "label": "Parent List",
+   "options": "Child Child Table Parent List"
+  },
+  {
+   "fieldname": "get_all_parent_docs",
+   "fieldtype": "Button",
+   "label": "Get All Parent Docs"
+  }
+ ],
+ "modified": "2022-12-28 15:11:36.470787",
+ "modified_by": "Administrator",
+ "module": "Programing App",
+ "name": "Child Doc",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
